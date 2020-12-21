@@ -1,0 +1,129 @@
+@techreport{climente-gonzalezBiologicalNetworksGWAS2020,
+	type = {preprint},
+	title = {Biological networks and {GWAS}: comparing and combining network methods to understand the genetics of familial breast cancer susceptibility in the {GENESIS} study},
+	shorttitle = {Biological networks and {GWAS}},
+	url = {http://biorxiv.org/lookup/doi/10.1101/2020.05.04.076661},
+	abstract = {Abstract
+          
+            Network approaches to disease use biological networks, which model functional relationships between the molecules in a cell, to generate hypotheses about the genetics of complex diseases. Several among them jointly consider gene scores, representing the association between each gene and the disease, and the biological context of each gene, modeled by a network. Here, we study six such network methods using gene scores from GENESIS, a genome-wide association study (GWAS) on French women with non-BRCA familial breast cancer. We provide a critical comparison of these six methods, discussing the impact of their mathematical formulation and parameters. Using a biological network yields more compelling results than standard GWAS analyses. Indeed, we find significant overlaps between our solutions and the genes identified in the largest GWAS on breast cancer susceptibility. We further propose to combine these solutions into a consensus network, which brings further insights. The consensus network contains
+            COPS5
+            , a gene related to multiple hallmarks of cancer, and 14 of its neighbors. The main drawback of network methods is that they are not robust to small perturbations in their inputs. Therefore, we propose a stable consensus solution, formed by the most consistently selected genes in multiple subsamples of the data. In GENESIS, it is composed of 68 genes, enriched in known breast cancer susceptibility genes (
+            BLM, CASP8, CASP10, DNAJC1, FGFR2, MRPS30
+            , and
+            SLC4A7
+            , P-value = 3 × 10
+            4
+            ) and occupying more central positions in the network than most genes. The network is organized around
+            CUL3
+            , which is involved in the regulation of several genes linked to cancer progression. In conclusion, we showed how network methods help overcome the lack of statistical power of GWAS and improve their interpretation. Project-agnostic implementations of all methods are available at
+            https://github.com/hclimente/gwas-tools
+            .
+          
+          
+            Author summary
+            
+              Genome-wide association studies (GWAS) scan thousands of genomes to identify variants associated with a complex trait. Over the last 15 years, GWAS have advanced our understanding of the genetics of complex diseases, and in particular of hereditary cancers. However, they have led to an apparent paradox: the more we perform such studies, the more it seems that the entire genome is involved in every disease. The omnigenic model offers an appealing explanation: only a limited number of
+              core
+              genes are directly involved in the disease, but gene functions are deeply interrelated, and so many other genes can alter the function of the core genes. These interrelations are often modeled as networks, and multiple algorithms have been proposed to use these networks to identify the subset of core genes involved in a specific trait. This study applies and compares six such network methods on GENESIS, a GWAS dataset for familial breast cancer in the French population. Combining these approaches allows us to identify potentially novel breast cancer susceptibility genes and provides a mechanistic explanation for their role in the development of the disease. We provide ready-to-use implementations of all the examined methods.},
+	language = {en},
+	urldate = {2020-12-03},
+	institution = {Genetics},
+	author = {Climente-González, Héctor and Lonjou, Christine and Lesueur, Fabienne and Stoppa-Lyonnet, Dominique and Andrieu, Nadine and Azencott, Chloé-Agathe and {GENESIS study group}},
+	month = may,
+	year = {2020},
+	doi = {10.1101/2020.05.04.076661},
+	note = {00000 },
+	file = {2020_Climente-González_et_al_Biological_networks_and_GWAS.pdf:/Users/hclimente/Documents/papers/2020_Climente-González_et_al_Biological_networks_and_GWAS.pdf:application/pdf}
+}
+
+@article{azencottEfficientNetworkguidedMultilocus2013,
+	title = {Efficient network-guided multi-locus association mapping with graph cuts},
+	volume = {29},
+	issn = {1367-4803, 1460-2059},
+	url = {https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btt238},
+	doi = {10.1093/bioinformatics/btt238},
+	abstract = {Motivation: As an increasing number of genome-wide association studies reveal the limitations of the attempt to explain phenotypic heritability by single genetic loci, there is a recent focus on associating complex phenotypes with sets of genetic loci. Although several methods for multi-locus mapping have been proposed, it is often unclear how to relate the detected loci to the growing knowledge about gene pathways and networks. The few methods that take biological pathways or networks into account are either restricted to investigating a limited number of predetermined sets of loci or do not scale to genome-wide settings.},
+	language = {en},
+	number = {13},
+	urldate = {2019-05-14},
+	journal = {Bioinformatics},
+	author = {Azencott, Chloé-Agathe and Grimm, Dominik and Sugiyama, Mahito and Kawahara, Yoshinobu and Borgwardt, Karsten M.},
+	month = jul,
+	year = {2013},
+	note = {00047},
+	pages = {i171--i179},
+	file = {2013_Azencott_et_al_Bioinformatics_Efficient_network-guided_multi-locus.pdf:/Users/hclimente/Documents/papers/2013_Azencott_et_al_Bioinformatics_Efficient_network-guided_multi-locus.pdf:application/pdf}
+}
+
+@article{liuSigModExactEfficient2017,
+	title = {{SigMod}: an exact and efficient method to identify a strongly interconnected disease-associated module in a gene network},
+	issn = {1367-4803, 1460-2059},
+	shorttitle = {{SigMod}},
+	url = {https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btx004},
+	doi = {10.1093/bioinformatics/btx004},
+	abstract = {Motivation: Apart from single marker-based tests classically used in genome-wide association studies (GWAS), network-assisted analysis has become a promising approach to identify a set of genes associated with disease. To date, most network-assisted methods aim at ﬁnding genes connected in a background network, whatever the density or strength of their connections. This can hamper the ﬁndings as sparse connections are non-robust against noise from either the GWAS results or the network resource.},
+	language = {en},
+	urldate = {2019-07-04},
+	journal = {Bioinformatics},
+	author = {Liu, Yuanlong and Brossard, Myriam and Roqueiro, Damian and Margaritte-Jeannin, Patricia and Sarnowski, Chloé and Bouzigon, Emmanuelle and Demenais, Florence},
+	month = jan,
+	year = {2017},
+	note = {00007},
+	pages = {btx004},
+	file = {2017_Liu_et_al_Bioinformatics_SigMod.pdf:/Users/hclimente/Documents/papers/2017_Liu_et_al_Bioinformatics_SigMod.pdf:application/pdf}
+}
+
+
+@article{boykovExperimentalComparisonMincut2004,
+	title = {An experimental comparison of min-cut/max- flow algorithms for energy minimization in vision},
+	volume = {26},
+	issn = {1939-3539},
+	doi = {10.1109/TPAMI.2004.60},
+	abstract = {Minimum cut/maximum flow algorithms on graphs have emerged as an increasingly useful tool for exactor approximate energy minimization in low-level vision. The combinatorial optimization literature provides many min-cut/max-flow algorithms with different polynomial time complexity. Their practical efficiency, however, has to date been studied mainly outside the scope of computer vision. The goal of this paper is to provide an experimental comparison of the efficiency of min-cut/max flow algorithms for applications in vision. We compare the running times of several standard algorithms, as well as a new algorithm that we have recently developed. The algorithms we study include both Goldberg-Tarjan style "push -relabel" methods and algorithms based on Ford-Fulkerson style "augmenting paths." We benchmark these algorithms on a number of typical graphs in the contexts of image restoration, stereo, and segmentation. In many cases, our new algorithm works several times faster than any of the other methods, making near real-time performance possible. An implementation of our max-flow/min-cut algorithm is available upon request for research purposes.},
+	number = {9},
+	journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+	author = {Boykov, Y. and Kolmogorov, V.},
+	month = sep,
+	year = {2004},
+	note = {05621 
+Conference Name: IEEE Transactions on Pattern Analysis and Machine Intelligence},
+	keywords = {Algorithms, Application software, Artificial Intelligence, augmenting path algorithms, Cluster Analysis, Clustering algorithms, combinatorial optimization, computational complexity, computer vision, Computer vision, directed graphs, energy minimization, Energy Transfer, Ford-Fulkerson style algorithms, Goldberg-Tarjan style methods, graph algorithms, Image Enhancement, Image Interpretation, Computer-Assisted, image restoration, Image restoration, image segmentation, Image segmentation, image stereo, Imaging, Three-Dimensional, Index Terms- Energy minimization, Information Storage and Retrieval, Iterative algorithms, Labeling, low level vision, maximum flow, minimax techniques, Minimization methods, minimum cut, minimum cut-maximum flow algorithms, multicamera scene reconstruction., Pattern Recognition, Automated, Photogrammetry, Photography, polynomial time complexity, push-relabel methods, Reproducibility of Results, segmentation, Sensitivity and Specificity, Simulated annealing, stereo, stereo image processing, Stereo vision, tree searching},
+	pages = {1124--1137},
+	file = {2004_Boykov_Kolmogorov_IEEE_Transactions_on_Pattern_Analysis_and_Machine_Intelligence_An_experimental_comparison_of.pdf:/Users/hclimente/Documents/papers/2004_Boykov_Kolmogorov_IEEE_Transactions_on_Pattern_Analysis_and_Machine_Intelligence_An_experimental_comparison_of.pdf:application/pdf;IEEE Xplore Abstract Record:/Users/hclimente/Zotero/storage/INHSRPLU/1316848.html:text/html;IEEE Xplore Abstract Record:/Users/hclimente/Zotero/storage/XMJH9PBJ/1316848.html:text/html}
+}
+
+@article{oughtredBioGRIDDatabaseComprehensive2020,
+	title = {The {BioGRID} database: {A} comprehensive biomedical resource of curated protein, genetic, and chemical interactions},
+	issn = {0961-8368, 1469-896X},
+	shorttitle = {The {\textless}span style="font-variant},
+	url = {https://onlinelibrary.wiley.com/doi/10.1002/pro.3978},
+	doi = {10.1002/pro.3978},
+	language = {en},
+	urldate = {2020-12-18},
+	journal = {Protein Science},
+	author = {Oughtred, Rose and Rust, Jennifer and Chang, Christie and Breitkreutz, Bobby‐Joe and Stark, Chris and Willems, Andrew and Boucher, Lorrie and Leung, Genie and Kolas, Nadine and Zhang, Frederick and Dolma, Sonam and Coulombe‐Huntington, Jasmin and Chatr‐aryamontri, Andrew and Dolinski, Kara and Tyers, Mike},
+	month = nov,
+	year = {2020},
+	note = {00000},
+	pages = {pro.3978}
+}
+
+@article{szklarczykSTRINGV11Protein2019,
+	title = {{STRING} v11: protein–protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets},
+	volume = {47},
+	issn = {0305-1048, 1362-4962},
+	shorttitle = {{STRING} v11},
+	url = {https://academic.oup.com/nar/article/47/D1/D607/5198476},
+	doi = {10.1093/nar/gky1131},
+	language = {en},
+	number = {D1},
+	urldate = {2019-07-28},
+	journal = {Nucleic Acids Research},
+	author = {Szklarczyk, Damian and Gable, Annika L and Lyon, David and Junge, Alexander and Wyder, Stefan and Huerta-Cepas, Jaime and Simonovic, Milan and Doncheva, Nadezhda T and Morris, John H and Bork, Peer and Jensen, Lars J and Mering, Christian von},
+	month = jan,
+	year = {2019},
+	note = {00072},
+	keywords = {database},
+	pages = {D607--D613},
+	file = {2019_Szklarczyk_et_al_Nucleic_Acids_Research_STRING_v11.pdf:/Users/hclimente/Documents/papers/2019_Szklarczyk_et_al_Nucleic_Acids_Research_STRING_v11.pdf:application/pdf}
+}
